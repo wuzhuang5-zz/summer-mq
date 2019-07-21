@@ -1,32 +1,3 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/xxl-logo.jpg" width="150">
-    <h3 align="center">XXL-MQ</h3>
-    <p align="center">
-        XXL-MQ, A lightweight distributed message queue framework.
-        <br>
-        <a href="http://www.xuxueli.com/xxl-mq/"><strong>-- Home Page --</strong></a>
-        <br>
-        <br>
-        <a href="https://travis-ci.org/xuxueli/xxl-mq">
-            <img src="https://travis-ci.org/xuxueli/xxl-mq.svg?branch=master" >
-        </a>
-        <a href="https://hub.docker.com/r/xuxueli/xxl-mq-admin/">
-            <img src="https://img.shields.io/badge/docker-passing-brightgreen.svg" >
-        </a>
-        <a href="https://maven-badges.herokuapp.com/maven-central/com.xuxueli/xxl-mq/">
-            <img src="https://maven-badges.herokuapp.com/maven-central/com.xuxueli/xxl-mq/badge.svg" >
-        </a>
-         <a href="https://github.com/xuxueli/xxl-mq/releases">
-             <img src="https://img.shields.io/github/release/xuxueli/xxl-mq.svg" >
-         </a>
-         <a href="http://www.gnu.org/licenses/gpl-3.0.html">
-             <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" >
-         </a>
-         <a href="http://www.xuxueli.com/page/donate.html">
-            <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg?style=flat-square" >
-         </a>
-    </p>    
-</p>
 
 
 ## Introduction
@@ -51,8 +22,8 @@ SUMMER-MQ是一款轻量级分布式消息队列，拥有 "水平扩展、高可
 - 4、高可用：消息中心能够忍受部分示例失效，不影响整个集群的可用性。通过内置注册中心可以实现秒级摘除失效节点，消息服务动态转移；
 - 5、消息持久化：全部消息持久化存储，消息中心支持通过配置选择是否清理过期消息。
 - 6、强数据安全：消息数据存储在DB中，可事务保障数据安全，防止消息数据丢失；
-- 7、海量数据堆积：消息数据存储在DB中，支持mysql存储方式，支持千万级消息堆积；
-- 8、单机TPS过10W：单机TPS受限于DB存储方式，选型 "MySQL" 时单机TPS过万
+- 7、海量数据堆积：消息数据存储在DB中，支持千万级消息堆积；
+- 8、单机TPS过10W：单机TPS受限于DB存储方式，选型 "MySQL" 时单机TPS过万，选型 "TIDB" 时单机TPS过10万；
 - 9、毫秒级投递延迟：消息中心与客户端通过RPC的方式进行消息通讯，毫秒级延时；
 - 10、多种消息模式: 
     - 并行消息：消息平均分配在该主题在线消费者，分片方式并行消费；适用于吞吐量较大的消息场景，如邮件发送、短信发送等业务逻辑
@@ -75,7 +46,6 @@ SUMMER-MQ是一款轻量级分布式消息队列，拥有 "水平扩展、高可
 
 
 ## Contributing
-Contributions are welcome! Open a pull request to fix a bug, or open an [Issue](https://github.com/wuzhuang5/summer-mq/issues/) to discuss a new feature or change.
+Contributions are welcome! Open a pull request to fix a bug, or open an [Issue](https://github.com/wuzhuang5/summer-mq/issues) to discuss a new feature or change.
 
-欢迎参与项目贡献！比如提交PR修复一个bug，或者新建 [Issue](https://github.com/wuzhuang5/summer-mq/issues/) 讨论新特性或者变更。
-
+欢迎参与项目贡献！比如提交PR修复一个bug，或者新建 [Issue](https://github.com/wuzhuang5/summer-mq/issues) 讨论新特性或者变更。
