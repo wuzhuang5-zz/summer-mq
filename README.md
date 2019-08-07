@@ -2,8 +2,8 @@
 
 ## Introduction
 ![summer-mq](https://raw.githubusercontent.com/wuzhuang5/summer-mq/master/common/src/main/resources/summermqlogo.png)
-summer-mq is a lightweight distributed message queue framework. 
-With features of "horizontal expansion, high availability, massive data accumulation, single TPS over 100,000, millisecond delivery".
+
+summer-mq is a lightweight distributed message queue framework With features of "horizontal expansion, high availability, massive data accumulation, single TPS over 100,000, millisecond delivery".
 Support for "concurrent message, serial message, broadcast message, delay message, transaction message, failure retry, timeout control" and other message features. 
 Now, it's already open source, real "out-of-the-box".
 
