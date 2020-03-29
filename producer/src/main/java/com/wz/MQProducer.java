@@ -7,7 +7,7 @@ import com.wz.message.Message;
  */
 public interface MQProducer {
 
-    void start();
+    void start() ;
 
     void shutdown();
 
